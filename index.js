@@ -34,9 +34,9 @@ function reduceToAllTrue(arr) {
 }
 
 function reduceToAnyTrue(arr) {
-  for (x )
+  for (const x of arr) {
     if (x) return true;
-  });
+  }
   return false;
 }
 
