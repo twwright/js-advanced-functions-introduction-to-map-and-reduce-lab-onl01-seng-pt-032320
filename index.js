@@ -20,7 +20,7 @@ function mapToSquare(arr) {
   return result;
 }
 
-function reduceToTotal(arr, start) {
+function reduceToTotal(arr, start=0) {
   let memo = start;
   arr.forEach(x => memo = memo + x);
   return memo;
