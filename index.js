@@ -27,9 +27,9 @@ function reduceToTotal(arr, start=0) {
 }
 
 function reduceToAllTrue(arr) {
-  arr.forEach(x => {
+  for (const x of arr) {
     if (!x) return false;
-  });
+  }
   return true;
 }
 
