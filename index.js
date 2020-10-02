@@ -34,7 +34,7 @@ function reduceToAllTrue(arr) {
 }
 
 function reduceToAnyTrue(arr) {
-  arr.forEach(x => {
+  for (x )
     if (x) return true;
   });
   return false;
